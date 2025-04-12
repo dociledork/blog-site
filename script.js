@@ -1,5 +1,5 @@
 const blogContainer = document.getElementById('blog-posts');
-const blogURL = 'https://raw.githubusercontent.com/yourusername/blog-data/main/posts.json';
+const blogURL = 'https://raw.githubusercontent.com/dociledork/blog-data/main/posts.json';
 
 fetch(blogURL)
   .then(response => response.json())
